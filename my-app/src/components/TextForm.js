@@ -75,7 +75,7 @@ export default function TextForm(props) {
             Words: {text.length>0 ? (text[text.length-1]!==" "?text.split(" ").length:text.split(" ").length-1) : 0} <br />
             Characters: {text.length} 
             <h3>Preview:</h3>
-            {text.length>0?text:"Enter some text in textbox above to see the preview"}
+            {text.length>0?text:"Enter some text to preview"}
         </div>
     </div>
     )
