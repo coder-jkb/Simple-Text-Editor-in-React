@@ -53,9 +53,7 @@ export default function TextForm(props) {
     <div className="pb-3" style={{color:props.mode==="dark"?"black":"white"}}>
         <div className="container my-4" >
             <h1>{props.heading}</h1>
-            {/* <h1>{props.dark.toString()}</h1> */}
             <div className="mb-3">
-                {/* <textarea className={"form-control border border-primary " + (props.dark?"bg-dark":"bg-light")}  id="exampleFormControlTextarea1" value={text} onChange={handelOnChange} rows="12"></textarea> */}
                 <textarea className="form-control border border-primary bg-{mode}" id="myTextarea" 
                 style={{backgroundColor:props.mode==="dark"?"white":"#2a2b2c", color:props.mode==="dark"?"black":"white"}} 
                 value={text} onChange={handelOnChange} rows="12"></textarea>
@@ -71,7 +69,6 @@ export default function TextForm(props) {
         </div>
         <div className="container border border-primary bg-{mode}">
             <h2>Your Text analysis:</h2>
-            {/* Words: {text.split(" ").length} <br /> */}
             Words: {text.length>0 ? (text[text.length-1]!==" "?text.split(" ").length:text.split(" ").length-1) : 0} <br />
             Characters: {text.length} 
             <h3>Preview:</h3>
@@ -86,5 +83,4 @@ TextForm.propTypes = {
 };
 TextForm.defaultProps = {
      heading: "Heading"
-
 };
