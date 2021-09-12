@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import TextForm from './components/TextForm';
+import Home from './components/Home';
 import {useState} from 'react'
 import Alert from './components/Alert';
 import About from './components/About';
@@ -51,8 +51,8 @@ const handleToggleMode = () => {
             <Route exact path="/about">
             <About mode={mode}/>
             </Route>
-            <Route exact path="/">
-              <TextForm heading="Let's play with text" mode={mode} setNewAlert={setNewAlert} />
+            <Route exact path="/home">
+              <Home heading="Let's play with text" mode={mode} setNewAlert={setNewAlert} />
             </Route>
           </Switch>
       </Router>
