@@ -48,11 +48,11 @@ const handleToggleMode = () => {
         <Navbar title="!My 1st react app!" navModeClass={navModeClass} handleToggleMode={handleToggleMode} mode={mode} />
         <Alert alert={alert} /> 
         <Switch>
-            <Route exact path="/Simple-Text-Editor-in-React/about">
-            <About mode={mode}/>
-            </Route>
             <Route exact path="/Simple-Text-Editor-in-React">
               <Home heading="Let's play with text" mode={mode} setNewAlert={setNewAlert} />
+            </Route>
+            <Route exact path="/Simple-Text-Editor-in-React/about">
+              <About mode={mode}/>
             </Route>
           </Switch>
       </Router>
@@ -60,3 +60,5 @@ const handleToggleMode = () => {
   );
 }
 export default App;
+
+// Problem with refreshing page needs to be fixed

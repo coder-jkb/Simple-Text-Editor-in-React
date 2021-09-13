@@ -21,7 +21,7 @@ export default function Navbar(props) {
                 <Link className="nav-link active" aria-current="page" to="/Simple-Text-Editor-in-React/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Simple-Text-Editor-in-React/about1">{props.about}</Link>
+                <Link className="nav-link" to="/Simple-Text-Editor-in-React/about">{props.about}</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/coder-jkb" target="_blank" rel="noreferrer"><ReactSVG src="github.svg" /></a>

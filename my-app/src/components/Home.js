@@ -6,19 +6,16 @@ export default function TextForm(props) {
     const [text, setText] = useState("Enter the text and start working on it...");
 
     const handelOnChange = (event)=>{
-        // console.log("Onchange");
         setText(event.target.value);
     }
 
     const upperCaseClick = ()=>{
-        // console.log("Uppercase clicked" + text);
         let newText = text.toUpperCase();
         setText(newText);
         props.setNewAlert("success","Converted to Upper case!");
 
     };
     const lowerCaseClick = ()=>{
-        // console.log("lowercase clicked" + text);
         let newText = text.toLowerCase();
         setText(newText);
         props.setNewAlert("success","Converted to lower case!");
@@ -37,9 +34,6 @@ export default function TextForm(props) {
         props.setNewAlert("success","Deleted extra spaces!");
     }
     const cutClick = (event) =>{
-        // let myText = document.getElementById("myTextarea");
-        // myText.select();
-        // navigator.clipboard.writeText(myText.value)
         copyClick();
         clearClick();
         props.setNewAlert("success","Text is cut!");
