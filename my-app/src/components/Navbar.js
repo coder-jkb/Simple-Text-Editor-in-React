@@ -8,7 +8,7 @@ export default function Navbar(props) {
   return (
     <>
       <nav className={"navbar navbar-expand-lg " + props.navModeClass}>
-        <Link className="navbar-brand" to="/Simple-Text-Editor-in-React/home">{props.title}</Link>
+        <Link className="navbar-brand" to="/Simple-Text-Editor-in-React/">{props.title}</Link>
         <div className="container-fluid">
           {/* toggle mode */}
           <button style={{ position: "a", top: "1rem", left: "1rem" }} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,7 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="my-2 navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/Simple-Text-Editor-in-React/home">Home</Link>
+                <Link className="nav-link active" aria-current="page" to="/Simple-Text-Editor-in-React/">Home</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/Simple-Text-Editor-in-React/about">{props.about}</Link>

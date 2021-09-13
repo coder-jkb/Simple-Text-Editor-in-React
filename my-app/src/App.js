@@ -51,7 +51,7 @@ const handleToggleMode = () => {
             <Route exact path="/Simple-Text-Editor-in-React/about">
             <About mode={mode}/>
             </Route>
-            <Route exact path="/Simple-Text-Editor-in-React/home">
+            <Route exact path="/Simple-Text-Editor-in-React">
               <Home heading="Let's play with text" mode={mode} setNewAlert={setNewAlert} />
             </Route>
           </Switch>
