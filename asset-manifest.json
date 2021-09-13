@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Simple-Text-Editor-in-React/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Simple-Text-Editor-in-React/static/js/main.458aea16.chunk.js",
-    "main.js.map": "/Simple-Text-Editor-in-React/static/js/main.458aea16.chunk.js.map",
+    "main.js": "/Simple-Text-Editor-in-React/static/js/main.7845b3e0.chunk.js",
+    "main.js.map": "/Simple-Text-Editor-in-React/static/js/main.7845b3e0.chunk.js.map",
     "runtime-main.js": "/Simple-Text-Editor-in-React/static/js/runtime-main.50b30fc0.js",
     "runtime-main.js.map": "/Simple-Text-Editor-in-React/static/js/runtime-main.50b30fc0.js.map",
     "static/js/2.1a0fa06c.chunk.js": "/Simple-Text-Editor-in-React/static/js/2.1a0fa06c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.50b30fc0.js",
     "static/js/2.1a0fa06c.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.458aea16.chunk.js"
+    "static/js/main.7845b3e0.chunk.js"
   ]
 }
