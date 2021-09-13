@@ -8,8 +8,7 @@ export default function Navbar(props) {
   return (
     <>
       <nav className={"navbar navbar-expand-lg " + props.navModeClass}>
-        <Link className="ms-2 navbar-brand" to="/Simple-Text-Editor-in-React/">{props.title}</Link>
-        <Link className="navbar-brand" to="/Simple-Text-Editor-in-React/" style={{padding:"0 10px"}}>{props.title}</Link>
+        <Link className="ms-2 navbar-brand" to="/Simple-Text-Editor-in-React/" style={{padding:"0 10px"}}>{props.title}</Link>
         <div className="container-fluid">
           {/* toggle mode */}
           <button  className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
