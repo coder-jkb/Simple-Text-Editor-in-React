@@ -45,7 +45,7 @@ const handleToggleMode = () => {
         https://getbootstrap.com/docs/5.0/forms/checks-radios/#switches
         */}
       <Router>
-        <Navbar title="!My 1st react app!" navModeClass={navModeClass} handleToggleMode={handleToggleMode} mode={mode} />
+        <Navbar title="Textify - A Text Utils App" navModeClass={navModeClass} handleToggleMode={handleToggleMode} mode={mode} />
         <Alert alert={alert} /> 
         <Switch>
             <Route exact path="/Simple-Text-Editor-in-React">

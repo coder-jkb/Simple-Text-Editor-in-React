@@ -5,7 +5,7 @@ export default function About(props) {
         <div className={"container text-"+props.mode} >
             <h1 className="about">About</h1>
             <p>
-            &rarr; I am <strong>Jay Bhanushali</strong> I have built this simple text utility application as a project while learning <strong><a href="https://reactjs.org" style={{color:"#35c7ff"}}><img src="logo192.png" alt="React_logo" style={{height:"30px"}} />React</a></strong>.
+            &rarr; I am <strong>Jay Bhanushali</strong> and I have built this simple text utility application as a project while learning <strong><a href="https://reactjs.org" style={{color:"#35c7ff"}}><img src="logo192.png" alt="React_logo" style={{height:"30px"}} />React</a></strong>. It's my first react app :D
             </p>
             <p>
             &rarr; As the main focus was te learn React, I have used Bootstrap for basic layought and styling...
