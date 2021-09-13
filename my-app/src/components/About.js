@@ -8,7 +8,7 @@ export default function About(props) {
             &rarr; I am <strong>Jay Bhanushali</strong> and I have built this simple text utility application as a project while learning <strong><a href="https://reactjs.org" style={{color:"#35c7ff"}}><img src="logo192.png" alt="React_logo" style={{height:"30px"}} />React</a></strong>. It's my first react app :D
             </p>
             <p>
-            &rarr; As the main focus was te learn React, I have used Bootstrap for basic layought and styling...
+            &rarr; As the main focus was te learn React, I have used Bootstrap for basic layout and styling...
             </p>
             <h3>What did I learn from this Project ?</h3>
             <ul>

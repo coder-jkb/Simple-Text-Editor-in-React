@@ -49,6 +49,9 @@ const handleToggleMode = () => {
         {/* <Navbar title="!My first resct app!" navModeClass={navModeClass} handleToggleMode={handleToggleMode} mode={mode} /> */}
         <Alert alert={alert} /> 
         <Switch>
+            <Route exact path="/Simple-Text-Editor-in-React/about">
+            <About mode={mode}/>
+            </Route>
             <Route exact path="/Simple-Text-Editor-in-React">
               <Home heading="Let's play with text" mode={mode} setNewAlert={setNewAlert} />
             </Route>
