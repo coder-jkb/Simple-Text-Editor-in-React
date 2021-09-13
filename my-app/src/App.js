@@ -45,13 +45,13 @@ const handleToggleMode = () => {
         https://getbootstrap.com/docs/5.0/forms/checks-radios/#switches
         */}
       <Router>
-        <Navbar title="!My 1st react app!" navModeClass={navModeClass} handleToggleMode={handleToggleMode} mode={mode} />
+        <Navbar title="Hello !My 1st react app!" navModeClass={navModeClass} handleToggleMode={handleToggleMode} mode={mode} />
         <Alert alert={alert} /> 
         <Switch>
-            <Route exact path="/Simple-Text-Editor-in-React/about">
+            <Route exact path="/about">
             <About mode={mode}/>
             </Route>
-            <Route exact path="/Simple-Text-Editor-in-React">
+            <Route exact path="/">
               <Home heading="Let's play with text" mode={mode} setNewAlert={setNewAlert} />
             </Route>
           </Switch>
