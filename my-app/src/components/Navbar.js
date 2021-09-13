@@ -11,7 +11,7 @@ export default function Navbar(props) {
         <Link className="ms-2 navbar-brand" to="/Simple-Text-Editor-in-React/">{props.title}</Link>
         <div className="container-fluid">
           {/* toggle mode */}
-          <button style={{ position: "a", top: "1rem", left: "1rem" }} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button  className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
 
@@ -34,7 +34,7 @@ export default function Navbar(props) {
         </div>
         <div className="form-check form-switch" style={{ position: "absolute", top: "1rem", right: "1rem" }}>
           <input className="mx-3 form-check-input" type="checkbox" id="flexSwitchCheckChecked" onClick={props.handleToggleMode} />
-          <label className={"form-check-label text-"+props.mode} htmlFor="flexSwitchCheckChecked">Enable {props.mode} mode</label>
+          <label className={"form-check-label text-"+props.mode} htmlFor="flexSwitchCheckChecked">{props.mode==="dark"?"light":"dark"} mode</label>
         </div>
       </nav>
     </>
