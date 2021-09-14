@@ -22,7 +22,7 @@ export default function About(props) {
             <strong>&rarr;<a href="https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt" target="_blank" rel="noreferrer" style={{color:"#ff7c7c", textDecoration:"none"}}> Youtube tutorial by CodeWithHarry</a></strong>
             </p>
             <p>
-            <strong>&rarr;<a href="https://reactjs.org/docs/getting-started.html" style={{color:"#35c7ff", textDecoration:"none"}}> React official documentation</a></strong>
+            <strong>&rarr;<a href="https://reactjs.org/docs/getting-started.html" style={{color:"#35c7ff", textDecoration:"none"}} target="_blank" rel="noreferrer"> React official documentation</a></strong>
             </p>
             You can have a look at the source code by visiting this GitHub repo<a href="https://git.io/Jutb8" target="_blank" rel="noreferrer" style={{color:"#00d500"}}> <strong>Simple-Text-Editor-in-React</strong></a> & any suggestion or feedback related to the project is heartily welcomed.
         </div>
