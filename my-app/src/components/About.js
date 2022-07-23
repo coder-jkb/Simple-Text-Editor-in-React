@@ -19,7 +19,7 @@ export default function About(props) {
             </ul>
             <h3>Resources</h3>
             <p>
-            <strong>&rarr;<a href="https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt" target="_blank" rel="noreferrer" style={{color:"#ff7c7c", textDecoration:"none"}}> Youtube tutorial by CodeWithHarry</a></strong>
+            <strong>&rarr;<a href="https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt" target="_blank" rel="noreferrer" style={{color:"#ff7c7c", textDecoration:"none"}}> Youtube tutorial</a></strong>
             </p>
             <p>
             <strong>&rarr;<a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noreferrer" style={{color:"#35c7ff", textDecoration:"none"}}> React official documentation</a></strong>
